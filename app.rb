@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  'Testing infrastructure works'
+  erb(:index)
 end
