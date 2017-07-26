@@ -1,12 +1,13 @@
 .navbar-container {
   margin: 0;
+  margin-bottom: -46px;
   padding: 0;
-  background-color:#333333;
+  background-color:#111;
   height:46px;
 }
 
 .navbar {
-  background-color: #333333;
+  background-color: #111;
   height: 100%;
   width: 85%;
   margin: 0 auto;
@@ -18,7 +19,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #111;
 }
 
 .logo-container {
@@ -44,11 +45,11 @@ li a {
   padding-top: 15px;
   padding-bottom: 12px;
   text-decoration: none;
-  border-bottom: 3px solid #333333;
+  border-bottom: 3px solid #111;
   transition: color 0.5s;
 }
 
 li a:hover {
-  color: darkorange;
-  border-bottom-color: darkorange;
+  color: #008000;
+  border-bottom-color: #008000;
 }
