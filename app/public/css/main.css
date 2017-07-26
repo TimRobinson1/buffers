@@ -14,11 +14,36 @@ body {
 
 .container {
   width: 85%;
+  /*height:100%;*/
+  padding:0;
   margin: 0 auto;
+  background-color: green !important;
+}
+
+.clear {
+  clear:both;
 }
 
 .page-container {
   background-image: url(../images/buffers_inside.jpg);
   background-size: cover;
   height:100vh;
+}
+
+.header-container {
+  margin: 0;
+  padding: 0;
+  margin-top:20px;
+  background-color: rgba(255, 0, 0, 0.1);
+  float:left;
+  width:400px;
+}
+
+.homepage-header {
+  font-family: 'Arizonia', cursive;
+  font-weight:400;
+  color: white;
+  margin: 0;
+  font-size:100px;
+  text-shadow: 2px 2px #000000;
 }
