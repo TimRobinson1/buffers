@@ -7,10 +7,25 @@
   color: #FFF;
 }
 
-.footer-container {
+.footer-text-container {
   padding: 18px 0;
 }
 
 .footer-text {
   font-size: 12px;
+}
+
+.social-media-icons-container {
+  padding: 12px 0;
+  font-size:25px;
+}
+
+.social-media-icons-container i {
+  padding:0 5px;
+  opacity:0.9;
+  transition: opacity 0.2s;
+}
+
+.social-media-icons-container i:hover {
+  opacity: 0.5;
 }
