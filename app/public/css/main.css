@@ -17,7 +17,6 @@ body {
   /*height:100%;*/
   padding:0;
   margin: 0 auto;
-  background-color: green !important;
 }
 
 .clear {
@@ -33,17 +32,30 @@ body {
 .header-container {
   margin: 0;
   padding: 0;
-  margin-top:20px;
-  background-color: rgba(255, 0, 0, 0.1);
-  float:left;
-  width:400px;
+  margin:30px auto;
+  /*float:left;*/
+  /*width:800px;*/
 }
 
 .homepage-header {
-  font-family: 'Arizonia', cursive;
+  font-family: 'Parisienne', cursive;
   font-weight:400;
   color: white;
-  margin: 0;
+  text-align: center;
+  margin:0;
   font-size:100px;
   text-shadow: 2px 2px #000000;
+}
+
+.home-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  width:800px;
+  margin:0 auto;
+  position:relative;
+  border-radius:15px;
+  overflow: hidden;
+}
+
+.homepage-info {
+  width:100%;
 }
