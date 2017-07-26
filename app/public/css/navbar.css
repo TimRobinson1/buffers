@@ -36,19 +36,19 @@ li {
 }
 
 li a {
+  font-family: 'Josefin Sans', sans-serif;
   display: block;
   color: white;
   text-align: center;
   margin-right:20px;
-  padding-top: 14px;
-  padding-bottom: 11px;
+  padding-top: 15px;
+  padding-bottom: 12px;
   text-decoration: none;
   border-bottom: 3px solid #333333;
   transition: color 0.5s;
 }
 
 li a:hover {
-  color: green;
-  background-color: #111;
-  border-bottom-color: green;
+  color: darkorange;
+  border-bottom-color: darkorange;
 }
