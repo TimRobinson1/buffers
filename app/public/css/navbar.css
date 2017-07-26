@@ -1,12 +1,12 @@
 .navbar-container {
   margin: 0;
   padding: 0;
-  background-color:red;
+  background-color:#333333;
   height:46px;
 }
 
 .navbar {
-  background-color: blue;
+  background-color: #333333;
   height: 100%;
   width: 85%;
   margin: 0 auto;
@@ -25,6 +25,12 @@
   float:left;
 }
 
+.logo {
+  width:120px;
+  padding:5px;
+  filter:invert();
+}
+
 li {
   float: right;
 }
@@ -35,12 +41,14 @@ li a {
   text-align: center;
   margin-right:20px;
   padding-top: 14px;
-  padding-bottom: 8px;
+  padding-bottom: 11px;
   text-decoration: none;
-  border-bottom: 5px solid #333333;
+  border-bottom: 3px solid #333333;
+  transition: color 0.5s;
 }
 
 li a:hover {
+  color: green;
   background-color: #111;
   border-bottom-color: green;
 }
