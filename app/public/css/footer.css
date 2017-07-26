@@ -1,0 +1,16 @@
+.footer {
+  position:absolute;
+  bottom:0;
+  background-color:rgba(0, 0, 0, 0.7);
+  height:50px;
+  width:100%;
+  color: #FFF;
+}
+
+.footer-container {
+  padding: 18px 0;
+}
+
+.footer-text {
+  font-size: 12px;
+}
