@@ -10,23 +10,20 @@
     <script src="https://use.fontawesome.com/3dc9490303.js"></script>
   </head>
   <body>
-    <div class='page-container'>
+    <div class='main-page-container'></div>
       <%= erb :'partials/navbar' %>
 
       <div class='clear'></div>
 
       <div class='container'>
-        <div class='right-container float-left'>
-          <img class='poster' src='images/buffers.jpg' />
-        </div>
-
-        <div class='left-container float-left'>
-          Lol
+        <div class='contact-background'>
+          <h1 class='contact-info'>Contact Us</h1>
+          <h2 class='contact-info-sub'><span class='contact-title'>By phone:</span> 00353 (0)74 9173710</h2>
+          <h2 class='contact-info-sub'><span class='contact-title'>By email:</span> buffers@oakfieldpark.com</h2>
+          <img class='contact-info' src='images/buffers_info_transparent.png' />
         </div>
       </div>
 
       <%= erb :'partials/footer' %>
-    </div>
-
   </body>
 </html>

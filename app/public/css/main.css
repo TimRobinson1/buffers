@@ -27,8 +27,8 @@ body, html {
 }
 
 .main-page-container {
-  position: absolute;
-  top:56px;
+  position: fixed;
+  top:0px;
   left:0;
   z-index: -1;
   background-image: url(../images/buffers_inside.jpg);
@@ -122,14 +122,40 @@ body, html {
 .container object {
   display:block;
   margin: 0 auto;
-  width:700px;
+  width:60%;
   height:1000px;
 }
 
-.poster {
-  display:inline-block;
-  width:80%;
-  margin:50px;
+.contact-background {
+  background-color: #000;
+  border-radius:30px;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.contact-info {
+  padding:10px;
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  display:block;
+  width:90%;
+  margin:0 auto;
+}
+
+.contact-info-sub {
+  color: white;
+  text-align: center;
+  font-size:2em;
+}
+
+.contact-title {
+  color: #BBB;
+}
+
+.menu-button {
+  width:60%;
+  margin:30px auto;
 }
 
 @media only screen and (max-width: 680px) {
@@ -141,5 +167,15 @@ body, html {
 @media only screen and (max-width: 530px) {
   .homepage-header {
     font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-info {
+    font-size: 3em;
+  }
+
+  .contact-info-sub {
+    font-size: 1.5em;
   }
 }

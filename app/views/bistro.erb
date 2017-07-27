@@ -10,18 +10,19 @@
     <script src="https://use.fontawesome.com/3dc9490303.js"></script>
   </head>
   <body>
-    <div class='page-container'>
     <%= erb :'partials/navbar' %>
+    <div class='main-page-container'></div>
 
       <div class='clear'></div>
 
+      <a class='mainpage-button menu-button' href='https://drive.google.com/file/d/0B8luDWdKzxbAYVRxUzJBZTdmdjg/view?usp=sharing'>View Fullscreen</a>
+
       <div class='container' id="pdf">
         <object type="application/pdf" data="/files/bistro_menu.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0" id="pdf_content">
-          <p>Insert your error message here, if the PDF cannot be displayed.</p>
+          <p>An error has occurred, the PDF cannot be displayed.</p>
         </object>
       </div>
 
       <%= erb :'partials/footer' %>
-    </div>
   </body>
 </html>
