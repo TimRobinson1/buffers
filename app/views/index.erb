@@ -10,7 +10,7 @@
     <script src="https://use.fontawesome.com/3dc9490303.js"></script>
   </head>
   <body>
-    <div class='page-container'>
+    <div class='main-page-container'>
     <%= erb :'partials/navbar' %>
 
       <div class='clear'></div>
@@ -25,30 +25,18 @@
 
         <div class='buttons-outer-container'>
           <div class='button-container'>
-            <a class='mainpage-button' href='#'>Bistro Menu</a>
+            <a class='mainpage-button' href='/menus/bistro'>Bistro Menu</a>
           </div>
           <div class='button-container'>
-            <a class='mainpage-button' href='#'>Book a table</a>
+            <a class='mainpage-button' href='/contact'>Book a table</a>
           </div>
           <div class='button-container'>
-            <a class='mainpage-button' href='#'>Lunch Menu</a>
+            <a class='mainpage-button' href='/menus/main'>Lunch Menu</a>
           </div>
         </div>
       </div>
 
-      <footer class='footer'>
-        <div class='container'>
-          <div class='footer-text-container float-left'>
-            <span class='footer-text'>Copyright © 2017 Oakfield Park</span>
-          </div>
-
-          <div class='social-media-icons-container float-right'>
-            <a href="https://www.facebook.com/Oakfield.Park/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a target="_blank" href="https://twitter.com/oakfield_park" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a target="_self" href="mailto:gardens@oakfieldpark.com" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </footer>
+      <%= erb :'partials/footer' %>
     </div>
 
   </body>

@@ -14,7 +14,6 @@ body {
 
 .container {
   width: 85%;
-  /*height:100%;*/
   padding:0;
   margin: 0 auto;
 }
@@ -23,18 +22,23 @@ body {
   clear:both;
 }
 
-.page-container {
+.main-page-container {
   background-image: url(../images/buffers_inside.jpg);
   background-size: cover;
   height:100vh;
+  background-attachment: fixed;
+}
+
+.page-container {
+  background-image: url(../images/buffers_inside.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header-container {
   margin: 0;
   padding: 0;
   margin:60px 30px auto;
-  /*float:left;*/
-  /*width:800px;*/
 }
 
 .homepage-header {
@@ -44,14 +48,16 @@ body {
   text-align: center;
   margin:0;
   font-size:100px;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px #000;
 }
 
 .homepage-subheader {
-  font-family: 'Parisienne', cursive;
+  font-family: 'Josefin Sans', cursive;
   font-weight: lighter;
   text-align: center;
+  font-style: italic;
   font-size:30px;
+  text-shadow: 2px 2px #000;
   color:white;
 }
 
@@ -96,4 +102,23 @@ body {
 
 .mainpage-button:hover {
   background-color: #000;
+}
+
+.container object {
+  display:block;
+  margin: 0 auto;
+  width:700px;
+  height:1000px;
+}
+
+@media only screen and (max-width: 680px) {
+  .mainpage-button {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .homepage-header {
+    font-size: 70px;
+  }
 }

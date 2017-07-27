@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Buffers</title>
+    <link href="https://fonts.googleapis.com/css?family=Parisienne|Josefin+Sans" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/footer.css" />
+    <script src="https://use.fontawesome.com/3dc9490303.js"></script>
+  </head>
+  <body>
+    <div class='page-container'>
+    <%= erb :'partials/navbar' %>
+
+      <div class='clear'></div>
+
+      <div class='container' id="pdf">
+        <object type="application/pdf" data="/files/bistro_menu.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0" id="pdf_content">
+          <p>Insert your error message here, if the PDF cannot be displayed.</p>
+        </object>
+      </div>
+
+      <%= erb :'partials/footer' %>
+    </div>
+
+    <script>
+      var pdf = document.getElementById('pdf_content')
+    </script>
+  </body>
+</html>
